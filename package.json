@@ -1,0 +1,36 @@
+{
+  "name": "thecybersmd",
+  "version": "1.0.0",
+  "description": "Base para desenvolvedores de bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrRoots07/TheCybersMD.git"
+  },
+  "keywords": [
+    "bot",
+    "baileys",
+    "whatsapp",
+    "nodejs"
+  ],
+  "author": "MrRoots",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MrRoots07/TheCybersMD/issues"
+  },
+  "homepage": "https://github.com/MrRoots07/TheCybersMD#readme",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.6",
+    "cfonts": "^3.3.0",
+    "chalk": "^4.1.2",
+    "moment-timezone": "^0.5.45",
+    "node-cache": "^5.1.2",
+    "pino": "^9.3.2",
+    "readline": "^1.3.0",
+    "spinnies": "^0.5.1"
+  }
+}
