@@ -4,7 +4,7 @@ RESET='\033[0m'
 
 while : 
 do
-    echo -e "${GREEN}=> Bot iniciado com prevenção de quedas ${RESET}"
+    echo "${GREEN}=> Bot iniciado com prevenção de quedas ${RESET}"
     node index.js
     sleep 1
 done
