@@ -73,10 +73,8 @@ module.exports = mr = async (mr, store, info, prefixo, nomeBot, nomeDono, numero
       }
 
       case 'reagir': {
-        const reactionMessage = '❤️'; // Reação a ser enviada
-        const messageToReact = info.key; // Mensagem à qual reagir
-        mr.sendMessage(from, { react: { text: reactionMessage, key: messageToReact } });
-        mr.sendMessage(from, { text: 'Reação enviada com sucesso!' }, { quoted: info });
+        const reactionMessage = '❤️';
+        mr.sendMessage(from, { react: { text: reactionMessage, key: info.key } });
         break
       }
 
